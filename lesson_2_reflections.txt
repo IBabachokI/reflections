@@ -23,4 +23,9 @@ A: They would be helpful in case you decide to check some code
 optimisation or to add some new feature that doesn't influence
 on the main part of programm. Branches could help to separate
 the complex developing process into the smaller and more understandable
-parts. 
+parts.
+
+Q: How do the diagrams help you visualize the branch structure?
+A: It helps to understand the amount of "live" branches, at what stage
+they are and how much and what exactly changes were made in master
+branch after the creating of each new branch.
