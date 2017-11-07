@@ -1,0 +1,8 @@
+Q: What happens when you initialize a repository? Why do you need to do
+it?
+A: Initialising of a reposetory is a start point after what each change
+inside it will be tracked.
+
+Q: How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+A: Stagging area is like some reloading point where you can choose the order you want to make your changes to become live. The files on these stage are already changed but still not "live". In case you made few changes, it's better to push these changes one-by-one to check they do not crash any.
