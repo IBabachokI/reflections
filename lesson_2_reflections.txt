@@ -5,4 +5,14 @@ inside it will be tracked.
 
 Q: How is the staging area different from the working directory and the
 repository? What value do you think it offers?
-A: Stagging area is like some reloading point where you can choose the order you want to make your changes to become live. The files on these stage are already changed but still not "live". In case you made few changes, it's better to push these changes one-by-one to check they do not crash any.
+A: Stagging area is like some reloading point where you can choose the
+order you want to make your changes to become live. The files on these
+stage are already changed but still not "live". In case you made few
+changes, it's better to push these changes one-by-one to check they do
+not crash any.
+
+Q: How can you use the staging area to make sure you have one commit 
+per logical change?
+A: You can check what is added to the staging area and how it differ
+from the "live" files to make sure you'll commit only one logical 
+change.
