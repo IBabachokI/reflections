@@ -16,3 +16,11 @@ per logical change?
 A: You can check what is added to the staging area and how it differ
 from the "live" files to make sure you'll commit only one logical 
 change.
+
+Q: What are some situations when branches would be helpful in keeping
+your history organized? How would branches help?
+A: They would be helpful in case you decide to check some code
+optimisation or to add some new feature that doesn't influence
+on the main part of programm. Branches could help to separate
+the complex developing process into the smaller and more understandable
+parts. 
