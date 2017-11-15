@@ -29,3 +29,21 @@ Q: How do the diagrams help you visualize the branch structure?
 A: It helps to understand the amount of "live" branches, at what stage
 they are and how much and what exactly changes were made in master
 branch after the creating of each new branch.
+
+Q: What is the result of merging two branches together? Why do we 
+represent it in the diagram the way we do?
+A: The result of merging two branches is a version of project that 
+include all the changes made in those branches.
+As I understand for now, each branch is a different direction of the
+development process that sometimes before separates from the main
+branch and all the changes made in this new branch will stay only here
+until it will be merged with another one. And also this new branch
+wouldn't iclude the changes in the parent branch until the merge.
+
+Q: What are the pros and cons of Git’s automatic merging vs. always 
+doing merges manually?
+A: The pros of the automatic merging are that you do not need to
+re-check and submit each and every change you made before. But the cons
+are the same here - as far Git doesn't understand logic changes you
+could get some duplicated functions/variables in resolving file that 
+will lead to ununderstandable and unexpectable bugs and crashes.
